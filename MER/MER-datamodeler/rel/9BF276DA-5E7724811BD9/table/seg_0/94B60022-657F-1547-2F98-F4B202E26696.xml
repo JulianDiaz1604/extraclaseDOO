@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94B60022-657F-1547-2F98-F4B202E26696" name="Usuario">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:00:08 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="identificador" id="4C346DB6-5FE4-FE0C-8B7D-9495A1BB164E">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:02:18 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="3227E43F-DEBE-E9B4-222E-DDEE3A030ECA">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:02:18 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="590A241F-1FAD-3F86-0CDF-F8BC7F8D103E">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:02:18 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="8E6CD7FC-274E-0CB0-89B2-4FEEB736AF04">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:02:18 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alias" id="7075898E-B1F9-15A9-26BA-B8E475FCF712">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:02:18 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contraseña" id="8346ECB5-05E2-54DB-D25D-1D2263971FC4">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:04:14 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="73355A7F-DA8B-D5CE-3256-5A7B027DCBE1">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:04:14 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="139C583C-93F1-47D9-187D-5307E3E671EE" name="Usuario_PK">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:02:18 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C346DB6-5FE4-FE0C-8B7D-9495A1BB164E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

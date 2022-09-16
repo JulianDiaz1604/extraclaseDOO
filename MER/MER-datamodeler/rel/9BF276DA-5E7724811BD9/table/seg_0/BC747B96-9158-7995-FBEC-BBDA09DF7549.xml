@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC747B96-9158-7995-FBEC-BBDA09DF7549" name="Obra">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:15:17 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="identificador" id="EFA59A0F-84C9-2784-E376-6B87ED4BE196">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:24:06 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="archivo" id="BBD48CD1-897B-13B9-8B04-B764D18A54F2">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:24:06 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="identificador_perfil" id="C4DA609E-9C8F-4A35-AD22-A82FB3FCCB51">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:24:06 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="202D4E1F-2727-7F7F-F4E8-A6018F59CC0E">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:24:06 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_publicacion" id="646E2F4E-4D9E-DDD8-6454-0F498C7A2448">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:24:06 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="identificador_TipoObra" id="17FA6E2B-CF2B-0C1C-B820-9155DE30D1E5">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:24:06 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PerfilUsuario_identificador" id="14884DF4-A13F-DA09-C7C5-A3D5E3FBCF00">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 18:04:11 UTC</createdTime>
+<generatorID>037C4378-1B36-3AB3-8293-4BD9EB239780</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC3467A0-99F7-ACE9-94C0-670BC4740B7C" referredColumn="5AEE7450-3647-98FD-1EFE-4D193BA55D88"/>
+</associations>
+</Column>
+<Column name="GaleriaGeneral_identificador" id="AEFF0A69-8720-1B00-B79A-DE463E9D6B11">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 18:04:11 UTC</createdTime>
+<generatorID>302830A9-9938-BD7C-314F-718E1DCC691D</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E0828E1-9E58-DE3C-9A71-A9B307E489BA" referredColumn="3773DBA1-E213-51B9-650E-C12A444EF1FB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E8552A4-0D54-2154-015E-95F5141D2DDA" name="Obra_PK">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:29:17 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFA59A0F-84C9-2784-E376-6B87ED4BE196"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25D43673-E411-061E-D4BA-CBB0BF035BD2" name="Obra_PerfilUsuario_FK">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 18:04:11 UTC</createdTime>
+<generatorID>C589ACA0-3811-74C6-B2EF-11B46EE44DE4</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14884DF4-A13F-DA09-C7C5-A3D5E3FBCF00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3B45026-74DA-0885-90C4-B23AD4E9E29F" name="Obra_GaleriaGeneral_FK">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 18:04:11 UTC</createdTime>
+<generatorID>379A96D8-029E-A732-D6C9-405FB8FBAF4A</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEFF0A69-8720-1B00-B79A-DE463E9D6B11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MER-datamodeler" id="CC7EF009-210E-553D-AF70-9D33C257CCB6" version="3.5">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 16:59:37 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CC7EF009-210E-553D-AF70-9D33C257CCB6</designId>
+</OSDM_Design>

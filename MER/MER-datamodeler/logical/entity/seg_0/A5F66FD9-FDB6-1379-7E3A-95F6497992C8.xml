@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A5F66FD9-FDB6-1379-7E3A-95F6497992C8" name="Like">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:55 UTC</createdTime>
+<generatorID>B4033A12-04D0-EAEA-1369-3B397D45F210</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="identificador" id="244CA1AA-75AD-59AF-7438-24F38A923DA8">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:55 UTC</createdTime>
+<generatorID>6A5D17FD-B607-958E-9F1D-0CCA58004898</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificador usuario" id="334A1A26-1CB6-7E04-90D5-E43CCC73DF8C">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:55 UTC</createdTime>
+<generatorID>769C2A47-EF7F-115B-72A5-E5460C94D315</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificador obra" id="1F8CD897-C2F9-43A2-CD9C-C690B6C10CD2">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:55 UTC</createdTime>
+<generatorID>72F09590-A09D-1D2F-86E4-C9E2CB1D5A38</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha realizacion" id="7127214D-ED9A-E312-4E23-0B5FAFF2870A">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:55 UTC</createdTime>
+<generatorID>3EF4824A-2D0A-FCD1-854B-B02BAEA5790F</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificador1" id="DC3D5B23-48E5-9424-880F-F222CBADBF4E">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 18:01:56 UTC</createdTime>
+<generatorID>04914067-7774-E779-6E9F-79AEE7E6EF14</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<referedAttribute>50A6724C-6D44-196A-E609-9884396D05ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificador11" id="17C77191-12C4-9EC5-252E-15B91D4EB5C8">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 18:01:56 UTC</createdTime>
+<generatorID>04914067-7774-E779-6E9F-79AEE7E6EF14</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<referedAttribute>037C4378-1B36-3AB3-8293-4BD9EB239780</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificador2" id="46510BBC-6D65-7DB3-63B7-CF1DB6DCF18C">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 18:02:11 UTC</createdTime>
+<generatorID>1D9E2F40-1533-4F61-68D3-024ED1CE5961</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<referedAttribute>DFB3BA50-419E-6580-3C89-326A56486518</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificador21" id="F9A421BE-2DD1-50B4-D40B-8C26B515F9C5">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 18:03:20 UTC</createdTime>
+<generatorID>04914067-7774-E779-6E9F-79AEE7E6EF14</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<referedAttribute>302830A9-9938-BD7C-314F-718E1DCC691D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="701E5A85-43CA-32AC-F8EC-787D3A07D54C" name="Like PK">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:55 UTC</createdTime>
+<generatorID>E55E2332-44D9-B4E1-80C6-DDA952B14FB1</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>244CA1AA-75AD-59AF-7438-24F38A923DA8</attributeRef>
+<attributeRef>DC3D5B23-48E5-9424-880F-F222CBADBF4E</attributeRef>
+<attributeRef>17C77191-12C4-9EC5-252E-15B91D4EB5C8</attributeRef>
+<attributeRef>F9A421BE-2DD1-50B4-D40B-8C26B515F9C5</attributeRef>
+<attributeRef>46510BBC-6D65-7DB3-63B7-CF1DB6DCF18C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

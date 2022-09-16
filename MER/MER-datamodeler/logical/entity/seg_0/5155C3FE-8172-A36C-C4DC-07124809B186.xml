@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5155C3FE-8172-A36C-C4DC-07124809B186" name="Categoria">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:55 UTC</createdTime>
+<generatorID>0F38D9E5-CE21-5669-0848-1D1BD5F68EDB</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="identificador" id="9BE03D0A-3A2E-74BE-7ED1-53DA8261CD88">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:55 UTC</createdTime>
+<generatorID>95BA098D-9224-4017-4841-5F9190ED00A5</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="D5F4C20D-9C60-2898-8130-25AC1341022F">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:55 UTC</createdTime>
+<generatorID>79F39830-BA74-1078-11FC-9768775C8725</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="DC1EDDB7-FC07-F8FF-43B1-991679E50F00">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:55 UTC</createdTime>
+<generatorID>429FA849-F8CB-02F8-F351-E5CFF50DB103</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E25BBFD0-904C-2218-A0C9-248E7D7D3543" name="Categoria PK">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:55 UTC</createdTime>
+<generatorID>2CF46DBE-5B5D-72C6-5D2A-AACCC5B999C3</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9BE03D0A-3A2E-74BE-7ED1-53DA8261CD88</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="144DC7A3-7EA2-D5CA-90D1-81E4948D0557" name="CategoriaObra">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:55 UTC</createdTime>
+<generatorID>115C9DAB-FB35-8D50-F7FB-F508C5D06F78</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="identificador" id="7E9237DF-831C-7375-87B5-7D5F11D9D9BE">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:55 UTC</createdTime>
+<generatorID>745FD067-6B1F-3A04-FBA2-7FBE502A6189</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificador obra" id="696F5C22-3A17-DCAE-9F40-182C105493BB">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:55 UTC</createdTime>
+<generatorID>B9FDBA9E-4512-3163-1385-1D1670BA5D78</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificador categoria" id="E5A78343-4154-5AF5-8298-FF138EEF5959">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:55 UTC</createdTime>
+<generatorID>48FD1CFE-C346-F050-29A5-5CA8C0ADF92F</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificador1" id="427B31EA-28F0-0E43-D321-DA6C395974A6">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 18:01:31 UTC</createdTime>
+<generatorID>EEE9581C-AE19-106F-0720-E4FAA3892790</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<referedAttribute>50A6724C-6D44-196A-E609-9884396D05ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificador11" id="B8C02A5A-0411-DAC1-9601-657DC7CE7206">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 18:01:31 UTC</createdTime>
+<generatorID>EEE9581C-AE19-106F-0720-E4FAA3892790</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<referedAttribute>037C4378-1B36-3AB3-8293-4BD9EB239780</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificador2" id="4C0F6428-E4CE-258B-3B7A-EB3CF828C7D7">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 18:01:44 UTC</createdTime>
+<generatorID>4E965128-E866-06AA-CC6D-181CF1C8DF8A</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<referedAttribute>9BE03D0A-3A2E-74BE-7ED1-53DA8261CD88</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificador21" id="E3B81675-07C4-12FD-DFFD-C65A2A2E20C3">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 18:03:20 UTC</createdTime>
+<generatorID>EEE9581C-AE19-106F-0720-E4FAA3892790</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<referedAttribute>302830A9-9938-BD7C-314F-718E1DCC691D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="22CA4EAF-3E88-3738-4C4D-A3A341E09BE0" name="CategoriaObra PK">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:55 UTC</createdTime>
+<generatorID>DD845070-AC4B-13F2-1C19-2B87236112B6</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7E9237DF-831C-7375-87B5-7D5F11D9D9BE</attributeRef>
+<attributeRef>427B31EA-28F0-0E43-D321-DA6C395974A6</attributeRef>
+<attributeRef>B8C02A5A-0411-DAC1-9601-657DC7CE7206</attributeRef>
+<attributeRef>E3B81675-07C4-12FD-DFFD-C65A2A2E20C3</attributeRef>
+<attributeRef>4C0F6428-E4CE-258B-3B7A-EB3CF828C7D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

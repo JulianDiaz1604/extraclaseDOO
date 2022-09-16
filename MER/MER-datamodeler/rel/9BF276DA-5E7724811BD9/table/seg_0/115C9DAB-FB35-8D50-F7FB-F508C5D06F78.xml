@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="115C9DAB-FB35-8D50-F7FB-F508C5D06F78" name="CategoriaObra">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:39:51 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="identificador" id="745FD067-6B1F-3A04-FBA2-7FBE502A6189">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:44:11 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="identificador_obra" id="B9FDBA9E-4512-3163-1385-1D1670BA5D78">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:44:11 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="identificador_categoria" id="48FD1CFE-C346-F050-29A5-5CA8C0ADF92F">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:44:11 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Obra_identificador" id="827E6607-21BC-E658-A410-96E14B2694CA">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 18:04:11 UTC</createdTime>
+<generatorID>427B31EA-28F0-0E43-D321-DA6C395974A6</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F66F5EF-6BD4-13C3-AEAF-AFDA35FB7705" referredColumn="EFA59A0F-84C9-2784-E376-6B87ED4BE196"/>
+</associations>
+</Column>
+<Column name="Categoria_identificador" id="E6AC6563-B36B-C139-FA98-D871DAFD05C6">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 18:04:11 UTC</createdTime>
+<generatorID>4C0F6428-E4CE-258B-3B7A-EB3CF828C7D7</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E27F1402-8B30-1A1B-8BE9-659604EE56E2" referredColumn="95BA098D-9224-4017-4841-5F9190ED00A5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD845070-AC4B-13F2-1C19-2B87236112B6" name="CategoriaObra_PK">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:44:11 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="745FD067-6B1F-3A04-FBA2-7FBE502A6189"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C31CBAB1-1B66-E839-8986-7753B50F01E9" name="CategoriaObra_Obra_FK">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 18:04:11 UTC</createdTime>
+<generatorID>EEE9581C-AE19-106F-0720-E4FAA3892790</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="827E6607-21BC-E658-A410-96E14B2694CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79C8B047-FB14-7D4A-5E86-FC53A05DD2D3" name="CategoriaObra_Categoria_FK">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 18:04:11 UTC</createdTime>
+<generatorID>4E965128-E866-06AA-CC6D-181CF1C8DF8A</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6AC6563-B36B-C139-FA98-D871DAFD05C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

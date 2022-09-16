@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4DD3880B-220C-9D88-C4E7-AB32A4AC7B0A" name="GaleriaGeneral">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:44:48 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="identificador" id="3773DBA1-E213-51B9-650E-C12A444EF1FB">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:46:57 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="9DEC1B09-28DB-E191-2A94-81A1AF64FEDB">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:46:57 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="6BB7BCE3-B7AC-A753-ACF9-FE566D8CE07B">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:46:57 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDB8E2E4-79B0-0F8C-A609-3AC79BC4854D" name="GaleriaGeneral_PK">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:46:57 UTC</createdTime>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3773DBA1-E213-51B9-650E-C12A444EF1FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

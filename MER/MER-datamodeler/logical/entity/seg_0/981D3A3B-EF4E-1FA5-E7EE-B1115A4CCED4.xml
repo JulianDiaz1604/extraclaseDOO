@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="981D3A3B-EF4E-1FA5-E7EE-B1115A4CCED4" name="TipoObra">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:56 UTC</createdTime>
+<generatorID>72203A79-5ED3-D2C8-1445-A4CC267CBDE1</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="identificador" id="4FD745CF-5EE6-781B-06AA-7C7717244570">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:56 UTC</createdTime>
+<generatorID>319EB40C-485E-D611-521C-2395EA557EE1</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="0B9129FE-0E61-DBCE-0225-529C84A41007">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:56 UTC</createdTime>
+<generatorID>705C8C37-2E5B-B732-DECF-DF786DD858E4</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificador1" id="EAE2854C-FE47-51FA-A26A-365D9CAE95B3">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 18:04:04 UTC</createdTime>
+<generatorID>49392803-3C27-BF07-6544-88F6DE9B2513</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<referedAttribute>50A6724C-6D44-196A-E609-9884396D05ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificador11" id="FCCEF994-2D95-05CD-66BB-3B61FFF58E52">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 18:04:04 UTC</createdTime>
+<generatorID>49392803-3C27-BF07-6544-88F6DE9B2513</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<referedAttribute>037C4378-1B36-3AB3-8293-4BD9EB239780</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificador2" id="7A47FD98-3631-2EFA-C003-D47C75D4D633">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 18:04:04 UTC</createdTime>
+<generatorID>49392803-3C27-BF07-6544-88F6DE9B2513</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<referedAttribute>302830A9-9938-BD7C-314F-718E1DCC691D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F6FC81F1-F782-E92F-0B17-732DB29BE724" name="TipoObra PK">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:56 UTC</createdTime>
+<generatorID>0BB2E17E-148C-FD97-6AC2-931B69BEC391</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4FD745CF-5EE6-781B-06AA-7C7717244570</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

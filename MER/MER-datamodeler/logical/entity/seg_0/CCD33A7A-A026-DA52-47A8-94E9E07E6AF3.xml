@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CCD33A7A-A026-DA52-47A8-94E9E07E6AF3" name="PerfilUsuario">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:56 UTC</createdTime>
+<generatorID>4BF5FB6E-B0B0-B0A3-CB70-711DC9507EA4</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="identificador" id="C2D04F93-0940-2EC0-BE93-E306DFF12EBC">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:56 UTC</createdTime>
+<generatorID>5AEE7450-3647-98FD-1EFE-4D193BA55D88</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="C9A77FE3-51B8-2A6E-A9D4-3435355C6B96">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:56 UTC</createdTime>
+<generatorID>68893B83-3E42-5D6C-F776-2AF985B8D569</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificador usuario" id="94294A1E-AF46-8194-067E-75FBBEF5EEA1">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:56 UTC</createdTime>
+<generatorID>3724C6D3-F12A-F832-EE05-8CF66AD46214</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificador1" id="2E4C66A5-C064-E979-0D0C-95DFC2865C38">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 18:00:00 UTC</createdTime>
+<generatorID>700C9A51-A52B-05E5-97F7-4828AC69BE59</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="true"/>
+</engineerTo>
+<referedAttribute>DFB3BA50-419E-6580-3C89-326A56486518</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="59148F34-F2F9-98EE-6935-2978C7E8C90B" name="PerfilUsuario PK">
+<createdBy>diazj</createdBy>
+<createdTime>2022-09-16 17:59:56 UTC</createdTime>
+<generatorID>9CB10B1A-330C-C597-4565-1B24D4514318</generatorID>
+<ownerDesignName>MER-datamodeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9BF276DA-3209-18EE-53BB-5E7724811BD9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C2D04F93-0940-2EC0-BE93-E306DFF12EBC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
